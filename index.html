@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vogue & Co. | Premium Fashion Store</title>
+  <meta name="description" content="Discover Vogue & Co. curated luxury apparel. Timeless designs, organic fabrics, and bespoke craftsmanship for men, women, and kids.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="brand">
+      <a href="#" class="brand-logo">Vogue & Co.</a>
+      <span class="brand-tagline">Maison de Couture</span>
+    </div>
+    
+    <nav>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+        <li class="nav-item">
+          <a href="#shop-section" class="nav-link">Shop Collection</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item" data-category="Men's Wear">Men's Wear</a>
+            <a href="#" class="dropdown-item" data-category="Women's Wear">Women's Wear</a>
+            <a href="#" class="dropdown-item" data-category="Kids' Wear">Kids' Wear</a>
+            <a href="#" class="dropdown-item" data-category="Ethnic Wear">Ethnic Wear</a>
+            <a href="#" class="dropdown-item" data-category="Casual Wear">Casual Wear</a>
+            <a href="#" class="dropdown-item" data-category="Formal Wear">Formal Wear</a>
+            <a href="#" class="dropdown-item" data-category="Sportswear">Sportswear</a>
+            <a href="#" class="dropdown-item" data-category="Accessories">Accessories</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="#about-section" class="nav-link">Our Story</a></li>
+        <li class="nav-item"><a href="#reviews-section" class="nav-link">Reviews</a></li>
+        <li class="nav-item"><a href="#faq-section" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="#contact-section" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#shop-section" class="search-trigger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      </a>
+      <div class="mobile-nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner Slider -->
+  <section class="hero">
+    <div class="hero-slider">
+      <!-- Slide 1 -->
+      <div class="hero-slide active">
+        <div class="hero-image-overlay"></div>
+        <img class="hero-image" src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1600" alt="Autumn collection banner">
+        <div class="hero-content">
+          <span class="hero-subtitle">New Arrival Season</span>
+          <h1 class="hero-title">The Art of Refined Dressing</h1>
+          <p class="hero-desc">Experience our hand-crafted organic outerwear collections tailored to define effortless modern elegance.</p>
+          <div class="hero-actions">
+            <a href="#shop-section" class="btn btn-primary">Shop Collection</a>
+            <a href="#about-section" class="btn btn-outline">Explore Craft</a>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="hero-slide">
+        <div class="hero-image-overlay"></div>
+        <img class="hero-image" src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=1600" alt="Summer collection banner">
+        <div class="hero-content">
+          <span class="hero-subtitle">Summer Resort 2026</span>
+          <h1 class="hero-title">Bespoke Flax & Linen</h1>
+          <p class="hero-desc">Discover fluid, breathing garments tailored for summer afternoons and sunset ocean breezes.</p>
+          <div class="hero-actions">
+            <a href="#shop-section" class="btn btn-primary">Discover Summer</a>
+            <a href="#shop-section" class="btn btn-outline">View Catalog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-controls">
+      <button class="hero-btn prev">&larr;</button>
+      <button class="hero-btn next">&rarr;</button>
+    </div>
+  </section>
+
+  <!-- Highlight Collections categories -->
+  <section class="section">
+    <div class="section-header">
+      <span class="section-subtitle">Curated Offerings</span>
+      <h2 class="section-title">Seasonal Banners</h2>
+    </div>
+    
+    <div class="collections-grid">
+      <!-- Collection 1 -->
+      <div class="collection-card">
+        <img class="collection-img" src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=600" alt="Women's collection">
+        <div class="collection-overlay">
+          <h3 class="collection-title">Women's Wear</h3>
+          <a href="#" class="collection-link" data-category="Women's Wear">Explore <span>&rarr;</span></a>
+        </div>
+      </div>
+      <!-- Collection 2 -->
+      <div class="collection-card">
+        <img class="collection-img" src="https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=600" alt="Men's collection">
+        <div class="collection-overlay">
+          <h3 class="collection-title">Men's Wear</h3>
+          <a href="#" class="collection-link" data-category="Men's Wear">Explore <span>&rarr;</span></a>
+        </div>
+      </div>
+      <!-- Collection 3 -->
+      <div class="collection-card">
+        <img class="collection-img" src="https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?q=80&w=600" alt="Kids collection">
+        <div class="collection-overlay">
+          <h3 class="collection-title">Kids & Accessories</h3>
+          <a href="#" class="collection-link" data-category="Kids' Wear">Explore <span>&rarr;</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promotions Banner -->
+  <section class="section" style="background-color: var(--color-bg-secondary); text-align: center; padding: 5rem 2rem;">
+    <span class="section-subtitle">Limited Time</span>
+    <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 1.5rem;">The Midsummer Festival Sale</h2>
+    <p style="max-width: 600px; margin: 0 auto 2.5rem auto; color: var(--color-text-secondary);">Enjoy up to <strong>30% off</strong> on custom silk collections and luxury resort linen wear. Premium fabrics designed to beat the heat.</p>
+    <a href="#shop-section" class="btn btn-primary" style="background-color: var(--color-text-primary); color: var(--color-white);">Browse Sale</a>
+  </section>
+
+  <!-- Shop Grid Section with Filters -->
+  <section class="section" id="shop-section">
+    <div class="section-header">
+      <span class="section-subtitle">The Catalog</span>
+      <h2 class="section-title">Explore Collections</h2>
+    </div>
+
+    <div class="shop-container">
+      <!-- Filters Sidebar -->
+      <aside class="filters-sidebar">
+        <!-- Search bar -->
+        <div class="search-container">
+          <svg class="search-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="search-products" class="search-input" placeholder="Search by name or brand...">
+        </div>
+
+        <!-- Categories List -->
+        <div class="filter-group">
+          <h3 class="filter-title">Categories</h3>
+          <ul class="filter-list">
+            <li><a href="#" class="filter-checkbox-label active" data-category="All">All Clothing</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Men's Wear">Men's Wear</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Women's Wear">Women's Wear</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Kids' Wear">Kids' Wear</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Ethnic Wear">Ethnic Wear</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Casual Wear">Casual Wear</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Formal Wear">Formal Wear</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Sportswear">Sportswear</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Winter Collection">Winter Collection</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Summer Collection">Summer Collection</a></li>
+            <li><a href="#" class="filter-checkbox-label" data-category="Accessories">Accessories</a></li>
+          </ul>
+        </div>
+
+        <!-- Size Selection -->
+        <div class="filter-group">
+          <h3 class="filter-title">Filter by Size</h3>
+          <div class="pills-container">
+            <button class="pill-btn" data-size="XS">XS</button>
+            <button class="pill-btn" data-size="S">S</button>
+            <button class="pill-btn" data-size="M">M</button>
+            <button class="pill-btn" data-size="L">L</button>
+            <button class="pill-btn" data-size="XL">XL</button>
+          </div>
+        </div>
+
+        <!-- Color Selection -->
+        <div class="filter-group">
+          <h3 class="filter-title">Filter by Color</h3>
+          <div class="color-pills-container">
+            <span class="color-dot" data-color="Beige" style="background-color: #E6D5BC;" title="Beige"></span>
+            <span class="color-dot" data-color="Black" style="background-color: #1A1A1A;" title="Black"></span>
+            <span class="color-dot" data-color="Navy" style="background-color: #1B263B;" title="Navy"></span>
+            <span class="color-dot" data-color="Charcoal" style="background-color: #4A4E69;" title="Charcoal"></span>
+            <span class="color-dot" data-color="White" style="background-color: #FFFFFF;" title="White"></span>
+            <span class="color-dot" data-color="Olive Green" style="background-color: #556B2F;" title="Olive Green"></span>
+            <span class="color-dot" data-color="Emerald Green" style="background-color: #004B23;" title="Emerald Green"></span>
+            <span class="color-dot" data-color="Sage Green" style="background-color: #9CB4B3;" title="Sage Green"></span>
+          </div>
+        </div>
+
+        <!-- Price Range -->
+        <div class="filter-group">
+          <h3 class="filter-title">Price Range</h3>
+          <input type="range" id="price-range" min="30" max="500" value="500" style="width: 100%; accent-color: var(--color-accent);">
+          <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-top: 0.5rem; color: var(--color-text-secondary);">
+            <span>$30</span>
+            <span id="price-value" style="font-weight: 600; color: var(--color-text-primary);">$500</span>
+          </div>
+        </div>
+
+        <!-- Brand Selection -->
+        <div class="filter-group">
+          <h3 class="filter-title">Brands</h3>
+          <ul class="filter-list">
+            <li>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" value="Atelier V" class="brand-checkbox"> Atelier V
+              </label>
+            </li>
+            <li>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" value="Tailor & Co" class="brand-checkbox"> Tailor & Co
+              </label>
+            </li>
+            <li>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" value="Sol & Sea" class="brand-checkbox"> Sol & Sea
+              </label>
+            </li>
+            <li>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" value="Heritage Threads" class="brand-checkbox"> Heritage Threads
+              </label>
+            </li>
+            <li>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" value="AeroFit" class="brand-checkbox"> AeroFit
+              </label>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Products Grid & Controls -->
+      <main>
+        <div class="shop-controls">
+          <span class="results-count" id="results-count">Showing all products</span>
+          <select id="sort-select" class="sort-select">
+            <option value="newest">Newest Arrivals</option>
+            <option value="popularity">Popularity (Best Rating)</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+          </select>
+        </div>
+
+        <div class="products-grid" id="products-grid">
+          <!-- Dynamic cards rendered by app.js -->
+        </div>
+      </main>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="section about" id="about-section">
+    <div class="about-content">
+      <span class="section-subtitle">Our Heritage</span>
+      <h2 class="section-title" style="margin-bottom: 2rem;">Bespoke Craftsmanship & Sustainable Threads</h2>
+      <p class="about-story">"We design garments that outlive trends—weaving details that connect modern aesthetics to historical roots."</p>
+      <p class="about-para">Founded in 2024, Vogue & Co. began with a humble workspace and a single loom. Today, we stand as a beacon of slow fashion, focusing on organic material sourcing, ethical weaving processes, and premium clothing that feels like a second skin.</p>
+      <p class="about-para">Every stitch is crafted by master artisans who pour years of experience and love into custom blazers, soft linen shirts, and intricate silk sarees. We believe luxury is an experience, not a price tag.</p>
+    </div>
+    <div class="about-img-container">
+      <img class="about-img" src="https://images.unsplash.com/photo-1544062624-4ad2578fbcf8?q=80&w=600" alt="Artisan tailoring fabric">
+    </div>
+  </section>
+
+  <!-- Reviews Testimonials Section -->
+  <section class="section reviews-section" id="reviews-section">
+    <div class="section-header">
+      <span class="section-subtitle">Testimonials</span>
+      <h2 class="section-title">What Our Patrons Say</h2>
+    </div>
+
+    <div class="reviews-slider">
+      <!-- Review 1 -->
+      <div class="review-slide active">
+        <div class="stars-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"The linen casual shirts from Vogue & Co. feel unbelievably light and breathable. The custom beige trench coat has become a statement piece in my autumn wardrobe."</p>
+        <h4 class="review-author">Julianne Vance</h4>
+        <span class="review-author-title">Stylist & Customer</span>
+      </div>
+      <!-- Review 2 -->
+      <div class="review-slide">
+        <div class="stars-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"Magnificent raw silk sarees! The embroidery work is breathtakingly complex, and you can truly feel the weight of standard artisanal quality."</p>
+        <h4 class="review-author">Anjali Desai</h4>
+        <span class="review-author-title">Silk Collector</span>
+      </div>
+      <!-- Review 3 -->
+      <div class="review-slide">
+        <div class="stars-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        <p class="review-text">"Customer support went out of their way to customize my blazer sizing. Extremely satisfied with both the fit and the soft wool fabric choice."</p>
+        <h4 class="review-author">Marcus Sterling</h4>
+        <span class="review-author-title">Creative Director</span>
+      </div>
+    </div>
+
+    <div class="reviews-nav">
+      <span class="review-dot active"></span>
+      <span class="review-dot"></span>
+      <span class="review-dot"></span>
+    </div>
+  </section>
+
+  <!-- FAQs Accordion -->
+  <section class="section" id="faq-section" style="background-color: var(--color-bg-secondary);">
+    <div class="section-header">
+      <span class="section-subtitle">Got Questions?</span>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faqs-container">
+      <div class="faq-item">
+        <div class="faq-header">
+          <span>How do I choose the right size?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-content">
+          <p class="faq-answer">Please check our comprehensive size guide listed inside each product's details page. Alternatively, our bespoke sizing experts can guide you on custom fittings via WhatsApp.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span>What payment methods are accepted?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-content">
+          <p class="faq-answer">We support order inquiries via WhatsApp, bank transfers, credit/debit card invoices, and standard secure online gateways upon design finalization.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span>How long does delivery take?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-content">
+          <p class="faq-answer">Standard in-stock clothing is shipped within 24-48 hours. Custom orders and tailored blazers require 7-10 business days for detailed assembly and packaging.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span>Are the products authentic?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-content">
+          <p class="faq-answer">Yes, all Vogue & Co. apparel is designed and handcrafted in our local ateliers. Each item comes with an authenticity guarantee tag containing the artisan's signature.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <span>Do you offer exchanges?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-content">
+          <p class="faq-answer">We offer a 14-day hassle-free exchange window for all standard apparel in unworn condition. Tailored garments are eligible for free sizing adjustments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="section contact-section" id="contact-section">
+    <!-- Contact Form -->
+    <div class="contact-form-container">
+      <span class="section-subtitle">Get In Touch</span>
+      <h2 class="section-title" style="margin-bottom: 2rem; font-size: 2rem;">Send Us a Message</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label class="form-label" for="contact-name">Full Name</label>
+          <input type="text" id="contact-name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="contact-email">Email Address</label>
+          <input type="email" id="contact-email" class="form-control" placeholder="name@domain.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="contact-phone">Phone Number</label>
+          <input type="tel" id="contact-phone" class="form-control" placeholder="+1 (555) 000-0000">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="contact-message">Your Message</label>
+          <textarea id="contact-message" class="form-control" placeholder="Describe what you are looking for..." required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Submit Message</button>
+      </form>
+    </div>
+
+    <!-- Contact Info & Map -->
+    <div class="contact-info-container">
+      <div class="contact-info-block">
+        <span class="section-subtitle">Reach Us Direct</span>
+        <h2 class="section-title" style="margin-bottom: 2rem; font-size: 2rem;">Vogue Ateliers</h2>
+
+        <div class="info-item">
+          <span class="info-icon">&#128205;</span>
+          <div class="info-text">
+            <h4>Address</h4>
+            <p>12 Rue du Faubourg Saint-Honoré, 75008 Paris, France</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon">&#128222;</span>
+          <div class="info-text">
+            <h4>Phone Number</h4>
+            <p>+33 1 42 68 53 00</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon">&#9993;</span>
+          <div class="info-text">
+            <h4>Email Inquiry</h4>
+            <p>concierge@vogueandco.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Embedded Google Map -->
+      <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.238479532822!2d2.318856615674849!3d48.87276497928929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc4d3fa1fa9%3A0xc30dbf24be67be43!2sRue%20du%20Faubourg%20Saint-Honor%C3%A9%2C%2075008%20Paris%2C%20France!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Details Modal (Overlay) -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-container" id="modal-container">
+      <!-- Filled dynamically by app.js when clicking a product -->
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="brand-logo" style="font-size: 1.5rem;">Vogue & Co.</a>
+        <p class="footer-desc">Premium couture designed to encapsulate timeless heritage and slow fashion philosophies.</p>
+        <div class="social-icons">
+          <a href="#" class="social-icon">IG</a>
+          <a href="#" class="social-icon">FB</a>
+          <a href="#" class="social-icon">PT</a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-link">Home</a></li>
+          <li><a href="#shop-section" class="footer-link">Browse Shop</a></li>
+          <li><a href="#about-section" class="footer-link">About Us</a></li>
+          <li><a href="#contact-section" class="footer-link">Book Appointment</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Categories</h4>
+        <ul class="footer-links">
+          <li><a href="#shop-section" class="footer-link">Men's Apparel</a></li>
+          <li><a href="#shop-section" class="footer-link">Women's Couture</a></li>
+          <li><a href="#shop-section" class="footer-link">Kids Collections</a></li>
+          <li><a href="#shop-section" class="footer-link">Accessories</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Hours</h4>
+        <ul class="footer-links" style="font-size: 0.88rem; color: #999999;">
+          <li>Monday - Friday: 10:00 - 19:00</li>
+          <li>Saturday: 11:00 - 18:00</li>
+          <li>Sunday: Closed (By Appointment Only)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Vogue & Co. All Rights Reserved.</p>
+      <div class="footer-legal-links">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Inclusion of logic layers -->
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
